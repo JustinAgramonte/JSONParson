@@ -6,7 +6,7 @@
 import os, json
 
 VulnsNameAmount = {}
-filePath = input("Enter filename: ").strip('\"')
+filePath = input("Enter filepath: ").strip('\"')
 assert os.path.isdir(filePath), "Filepath not found...copy from explorer path?"
 
 for file in os.listdir(filePath): #opening file
