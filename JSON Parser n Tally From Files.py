@@ -1,34 +1,34 @@
-#opens files, performs actions, given target folder
-    #opens each file and then parses JSON for "name" field and times found across all files
-    #if already in json, adds ++
-    #if not found, add name & severity and start at 1
-    #close file, hopefully moves to next
+#opens files, given target folder
+    #parses JSON output of SmarterScanner App for "name" of vulnerability field as well as times found across all files, close file
+    #if already in python dictionary, adds ++
+    #if not found, add name and start at 1
 
-import os
-import json
+import os, json
 
-VulnsAmount = {}
+VulnsNameAmount = {}
+filePath = input("Enter filename: ").strip('\"')
+assert os.path.isdir(filePath), "Filepath not found...copy from explorer path?"
 
-for file in os.listdir(r"C:\Users\Justi\Downloads\JSON Reports"):
-    filenamefull = os.path.join(r"C:\Users\Justi\Downloads\JSON Reports", file)
-    openedfile = open(filenamefull, 'r', encoding="utf8")
-    ConvertedJSON2Python = json.load(openedfile)
-    for k in ConvertedJSON2Python: 
-        for dictionary in ConvertedJSON2Python["issues"]:
-            for key in dictionary.keys():
+for file in os.listdir(filePath): #opening file
+    openedfile = open(os.path.join(filePath, file), 'r', encoding="utf8")
+    convertedJSON2Python = json.load(openedfile)
+
+    for primaryKey in convertedJSON2Python: #iterate through every key in the JSON --> python dictionary
+        listofVulnName = [] #create a list to add the vulnerability names, created here to clear it everytime a new file is accessed
+        for dictionary in convertedJSON2Python["issues"]: #issues' values are dictionaries themselves, so we reference the values of only the issues key where the "name" field is
+            for key in dictionary.keys(): # for every key under issues
                 if key == "name":
-                    add2Vuln = dictionary["name"]
-                    if dictionary["name"] in VulnsAmount.keys():
-                        VulnsAmount[add2Vuln] += 1
-                    else:
-                        VulnsAmount.update({add2Vuln: 1})
-
-    print (VulnsAmount, "\n \n \n ", filenamefull)
-
-    openedfile.close()             
-
-#print (VulnsAmount)
-
+                    listofVulnName.append(dictionary[key]) #adds dictionary value to list of vulnerabilities
+        listofVulnName = set(listofVulnName) #makes list items unique. needed so they are counted once per file
     
-"""if __name__ == "__main__":
-  tabularize()"""
+    openedfile.close()
+
+    for vulnName in listofVulnName: #update list with keys as vuln names/list items, and values are how many times we've seen it across files
+        if vulnName not in VulnsNameAmount:
+            VulnsNameAmount.update({vulnName: 1})
+        else: 
+            VulnsNameAmount[vulnName] = VulnsNameAmount[vulnName] + 1
+
+if __name__ == "__main__": 
+    for key in VulnsNameAmount:
+        print ("Vulnerability Found: " + key + "\n    Times Found: " + str(VulnsNameAmount[key]))
