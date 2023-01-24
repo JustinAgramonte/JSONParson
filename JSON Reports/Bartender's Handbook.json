@@ -1,0 +1,95 @@
+{
+    "date": "Fri Jan 20 2023",
+    "duration": "17″",
+    "issues": [
+        {
+            "customFields": {
+                "HTTPS": [
+                    "TLS 1.2"
+                ],
+                "Server Banner": [
+                    "github.com",
+                    "varnish"
+                ],
+                "Services": [
+                    "HTTPS"
+                ]
+            },
+            "id": 2338954166,
+            "impact": 4,
+            "name": "Target Information",
+            "restriction": 0,
+            "url": "https://aniib.github.io"
+        },
+        {
+            "http": [
+                {
+                    "request": "GET /the-bartenders-handbook/ HTTP/1.1\r\nUser-Agent: Mozilla/5.0 (Windows NT 6.3; rv:36.0) Gecko/20100101 Firefox/36.0\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\r\nAccept-Language: en-US,en;q=0.5\r\nContent-Length: 0\r\n\r\n",
+                    "response": "HTTP/1.1 200 OK\r\nConnection: keep-alive\r\nServer: GitHub.com\r\nContent-Type: text/html; charset=utf-8\r\npermissions-policy: interest-cohort=()\r\nLast-Modified: Sun, 19 Jun 2022 13:36:35 GMT\r\nAccess-Control-Allow-Origin: *\r\nStrict-Transport-Security: max-age=31556952\r\nETag: W/\"62af2663-3ca\"\r\nexpires: Sat, 21 Jan 2023 04:04:49 GMT\r\nCache-Control: max-age=600\r\nContent-Encoding: gzip\r\nx-proxy-cache: MISS\r\nX-GitHub-Request-Id: 4586:37EE:FEA0EB:14CD107:63CB6209\r\nAccept-Ranges: bytes\r\nDate: Sat, 21 Jan 2023 03:57:16 GMT\r\nVia: 1.1 varnish\r\nAge: 0\r\nX-Served-By: cache-lga21921-LGA\r\nX-Cache: HIT\r\nX-Cache-Hits: 1\r\nX-Timer: S1674273437.922519,VS0,VE17\r\nVary: Accept-Encoding\r\nX-Fastly-Request-ID: f8e70827339dfe852e53e218fd18de73975871e8\r\n\r\n<!DOCTYPE html>\n<html lang=\"en\">\n\n<head>\n\t<meta charset=\"utf-8\">\n\t<meta name=\"description\" content=\"The Bartender's Handbook - Lookup any cocktail on the go!\">\n\r\n...[truncated]..."
+                }
+            ],
+            "id": 2525826792,
+            "impact": 3,
+            "name": "X-Frame-Options Header is Missing",
+            "restriction": 0,
+            "url": "https://aniib.github.io/the-bartenders-handbook/"
+        },
+        {
+            "http": [
+                {
+                    "request": "GET /the-bartenders-handbook/ HTTP/1.1\r\nUser-Agent: Mozilla/5.0 (Windows NT 6.3; rv:36.0) Gecko/20100101 Firefox/36.0\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\r\nAccept-Language: en-US,en;q=0.5\r\nContent-Length: 0\r\n\r\n",
+                    "response": "HTTP/1.1 200 OK\r\nConnection: keep-alive\r\nServer: GitHub.com\r\nContent-Type: text/html; charset=utf-8\r\npermissions-policy: interest-cohort=()\r\nLast-Modified: Sun, 19 Jun 2022 13:36:35 GMT\r\nAccess-Control-Allow-Origin: *\r\nStrict-Transport-Security: max-age=31556952\r\nETag: W/\"62af2663-3ca\"\r\nexpires: Sat, 21 Jan 2023 04:04:49 GMT\r\nCache-Control: max-age=600\r\nContent-Encoding: gzip\r\nx-proxy-cache: MISS\r\nX-GitHub-Request-Id: 4586:37EE:FEA0EB:14CD107:63CB6209\r\nAccept-Ranges: bytes\r\nDate: Sat, 21 Jan 2023 03:57:16 GMT\r\nVia: 1.1 varnish\r\nAge: 0\r\nX-Served-By: cache-lga21921-LGA\r\nX-Cache: HIT\r\nX-Cache-Hits: 1\r\nX-Timer: S1674273437.922519,VS0,VE17\r\nVary: Accept-Encoding\r\nX-Fastly-Request-ID: f8e70827339dfe852e53e218fd18de73975871e8\r\n\r\n<!DOCTYPE html>\n<html lang=\"en\">\n\n<head>\n\t<meta charset=\"utf-8\">\n\t<meta name=\"description\" content=\"The Bartender's Handbook - Lookup any cocktail on the go!\">\n\r\n...[truncated]..."
+                }
+            ],
+            "id": 2126459910,
+            "impact": 3,
+            "name": "Content-Security-Policy Header is Missing",
+            "restriction": 0,
+            "url": "https://aniib.github.io/the-bartenders-handbook/"
+        },
+        {
+            "http": [
+                {
+                    "request": "GET /the-bartenders-handbook/ HTTP/1.1\r\nUser-Agent: Mozilla/5.0 (Windows NT 6.3; rv:36.0) Gecko/20100101 Firefox/36.0\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\r\nAccept-Language: en-US,en;q=0.5\r\nContent-Length: 0\r\n\r\n",
+                    "response": "HTTP/1.1 200 OK\r\nConnection: keep-alive\r\nServer: GitHub.com\r\nContent-Type: text/html; charset=utf-8\r\npermissions-policy: interest-cohort=()\r\nLast-Modified: Sun, 19 Jun 2022 13:36:35 GMT\r\nAccess-Control-Allow-Origin: *\r\nStrict-Transport-Security: max-age=31556952\r\nETag: W/\"62af2663-3ca\"\r\nexpires: Sat, 21 Jan 2023 04:04:49 GMT\r\nCache-Control: max-age=600\r\nContent-Encoding: gzip\r\nx-proxy-cache: MISS\r\nX-GitHub-Request-Id: 4586:37EE:FEA0EB:14CD107:63CB6209\r\nAccept-Ranges: bytes\r\nDate: Sat, 21 Jan 2023 03:57:16 GMT\r\nVia: 1.1 varnish\r\nAge: 0\r\nX-Served-By: cache-lga21921-LGA\r\nX-Cache: HIT\r\nX-Cache-Hits: 1\r\nX-Timer: S1674273437.922519,VS0,VE17\r\nVary: Accept-Encoding\r\nX-Fastly-Request-ID: f8e70827339dfe852e53e218fd18de73975871e8\r\n\r\n<!DOCTYPE html>\n<html lang=\"en\">\n\n<head>\n\t<meta charset=\"utf-8\">\n\t<meta name=\"description\" content=\"The Bartender's Handbook - Lookup any cocktail on the go!\">\n\r\n...[truncated]..."
+                }
+            ],
+            "id": 43693613,
+            "impact": 4,
+            "name": "X-Content-Type-Options Header is Missing",
+            "restriction": 0,
+            "url": "https://aniib.github.io/the-bartenders-handbook/"
+        },
+        {
+            "http": [
+                {
+                    "request": "GET /the-bartenders-handbook/ HTTP/1.1\r\nUser-Agent: Mozilla/5.0 (Windows NT 6.3; rv:36.0) Gecko/20100101 Firefox/36.0\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\r\nAccept-Language: en-US,en;q=0.5\r\nContent-Length: 0\r\n\r\n",
+                    "response": "HTTP/1.1 200 OK\r\nConnection: keep-alive\r\nServer: GitHub.com\r\nContent-Type: text/html; charset=utf-8\r\npermissions-policy: interest-cohort=()\r\nLast-Modified: Sun, 19 Jun 2022 13:36:35 GMT\r\nAccess-Control-Allow-Origin: *\r\nStrict-Transport-Security: max-age=31556952\r\nETag: W/\"62af2663-3ca\"\r\nexpires: Sat, 21 Jan 2023 04:04:49 GMT\r\nCache-Control: max-age=600\r\nContent-Encoding: gzip\r\nx-proxy-cache: MISS\r\nX-GitHub-Request-Id: 4586:37EE:FEA0EB:14CD107:63CB6209\r\nAccept-Ranges: bytes\r\nDate: Sat, 21 Jan 2023 03:57:16 GMT\r\nVia: 1.1 varnish\r\nAge: 0\r\nX-Served-By: cache-lga21921-LGA\r\nX-Cache: HIT\r\nX-Cache-Hits: 1\r\nX-Timer: S1674273437.922519,VS0,VE17\r\nVary: Accept-Encoding\r\nX-Fastly-Request-ID: f8e70827339dfe852e53e218fd18de73975871e8\r\n\r\n<!DOCTYPE html>\n<html lang=\"en\">\n\n<head>\n\t<meta charset=\"utf-8\">\n\t<meta name=\"description\" content=\"The Bartender's Handbook - Lookup any cocktail on the go!\">\n\r\n...[truncated]..."
+                }
+            ],
+            "id": 3871085622,
+            "impact": 4,
+            "name": "Referrer-Policy Header is Missing",
+            "restriction": 0,
+            "url": "https://aniib.github.io/the-bartenders-handbook/"
+        },
+        {
+            "http": [
+                {
+                    "request": "GET /the-bartenders-handbook/ HTTP/1.1\r\nUser-Agent: Mozilla/5.0 (Windows NT 6.3; rv:36.0) Gecko/20100101 Firefox/36.0\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\r\nAccept-Language: en-US,en;q=0.5\r\nContent-Length: 0\r\n\r\n",
+                    "response": "HTTP/1.1 200 OK\r\nConnection: keep-alive\r\nServer: GitHub.com\r\nContent-Type: text/html; charset=utf-8\r\npermissions-policy: interest-cohort=()\r\nLast-Modified: Sun, 19 Jun 2022 13:36:35 GMT\r\nAccess-Control-Allow-Origin: *\r\nStrict-Transport-Security: max-age=31556952\r\nETag: W/\"62af2663-3ca\"\r\nexpires: Sat, 21 Jan 2023 04:04:49 GMT\r\nCache-Control: max-age=600\r\nContent-Encoding: gzip\r\nx-proxy-cache: MISS\r\nX-GitHub-Request-Id: 4586:37EE:FEA0EB:14CD107:63CB6209\r\nAccept-Ranges: bytes\r\nDate: Sat, 21 Jan 2023 03:57:16 GMT\r\nVia: 1.1 varnish\r\nAge: 0\r\nX-Served-By: cache-lga21921-LGA\r\nX-Cache: HIT\r\nX-Cache-Hits: 1\r\nX-Timer: S1674273437.922519,VS0,VE17\r\nVary: Accept-Encoding\r\nX-Fastly-Request-ID: f8e70827339dfe852e53e218fd18de73975871e8\r\n\r\n<!DOCTYPE html>\n<html lang=\"en\">\n\n<head>\n\t<meta charset=\"utf-8\">\n\t<meta name=\"description\" content=\"The Bartender's Handbook - Lookup any cocktail on the go!\">\n\r\n...[truncated]..."
+                }
+            ],
+            "id": 789532091,
+            "impact": 4,
+            "name": "Cross-Origin Resource Sharing Allowed",
+            "restriction": 0,
+            "url": "https://aniib.github.io/the-bartenders-handbook/"
+        }
+    ],
+    "requests": 23,
+    "risk": 2,
+    "status": "finished",
+    "target": "https://aniib.github.io/the-bartenders-handbook/",
+    "version": "1.17.3"
+}

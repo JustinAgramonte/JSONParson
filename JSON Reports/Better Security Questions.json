@@ -1,0 +1,131 @@
+{
+    "date": "Fri Jan 20 2023",
+    "duration": "22″",
+    "issues": [
+        {
+            "customFields": {
+                "Cookies": [
+                    "__cf_bm",
+                    "__cfruid",
+                    "cp_session",
+                    "item_viewed"
+                ],
+                "HTTPS": [
+                    "TLS 1.2"
+                ],
+                "PHP Versions": [
+                    "37"
+                ],
+                "Server Banner": [
+                    "cloudflare"
+                ],
+                "Services": [
+                    "HTTPS"
+                ]
+            },
+            "id": 1001379782,
+            "impact": 4,
+            "name": "Target Information",
+            "restriction": 0,
+            "url": "https://codepen.io"
+        },
+        {
+            "customFields": {
+                "Cookie": [
+                    "__cf_bm=nZ2X93B0S0THOr_48ianC2wJy58g5vuZ_Q9pa5n7cdQ-1674267764-0-ATD43QFtYXsVlRIDiDeDPL0FcFmcDxVS8hFPXCXyil2jXFvPk+w2vpMBiIxR34pPmbTYDkMPhq77OGn4LWP/Mcw="
+                ]
+            },
+            "details": "The `.codepen.io` domain was set for the cookie `__cf_bm`. So the cookie is accessible to any subdomain.The current URL does not have the `www` subdomain and, it has the potential to have other subdomains.",
+            "http": [
+                {
+                    "request": "GET /cassidoo/full/bGLyoar HTTP/1.1\r\nUser-Agent: Mozilla/5.0 (Windows NT 6.3; rv:36.0) Gecko/20100101 Firefox/36.0\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\r\nAccept-Language: en-US,en;q=0.5\r\nContent-Length: 0\r\n\r\n",
+                    "response": "HTTP/1.1 403 Forbidden\r\nDate: Sat, 21 Jan 2023 02:22:44 GMT\r\nContent-Type: text/html; charset=UTF-8\r\nTransfer-Encoding: chunked\r\nConnection: close\r\nPermissions-Policy: accelerometer=(),autoplay=(),camera=(),clipboard-read=(),clipboard-write=(),fullscreen=(),geolocation=(),gyroscope=(),hid=(),interest-cohort=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=()\r\nReferrer-Policy: same-origin\r\nX-Frame-Options: SAMEORIGIN\r\nCache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0\r\nExpires: Thu, 01 Jan 1970 00:00:01 GMT\r\nSet-Cookie: __cf_bm=nZ2X93B0S0THOr_48ianC2wJy58g5vuZ_Q9pa5n7cdQ-1674267764-0-ATD43QFtYXsVlRIDiDeDPL0FcFmcDxVS8hFPXCXyil2jXFvPk+w2vpMBiIxR34pPmbTYDkMPhq77OGn4LWP/Mcw=; path=/; expires=Sat, 21-Jan-23 02:52:44 GMT; domain=.codepen.io; HttpOnly; Secure; SameSite=None\r\nVary: Accept-Encoding\r\nStrict-Transport-Security: max-age=31536000; includeSubDomains; preload\r\nServer: cloudflare\r\nCF-RAY: 78cc9576286b0c9d-EWR\r\nContent-Encoding: gzip\r\nalt-svc: h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400\r\n\r\n<!DOCTYPE html>\n<html lang=\"en-US\">\n<head>\n    <title>Just a moment...</title>\n    <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">\n    <meta\r\n...[truncated]..."
+                }
+            ],
+            "id": 425277395,
+            "impact": 3,
+            "name": "Cookie Accessible for Subdomains",
+            "restriction": 0,
+            "url": "https://codepen.io/cassidoo/full/bGLyoar"
+        },
+        {
+            "customFields": {
+                "Cookie": [
+                    "__cf_bm=QhwGFgC_5pFaw76VAR.br2k2VuRThwrkhZ9JOyqQ8G8-1674267764-0-AVBVtwspq8ZG/Pi4mUlYBjDHHOjmYeIOEWMRbQjjstXa333N+wP/Nz6gU0iCfCVEuhoLFwagoB6VZiQk2b5EDzA="
+                ]
+            },
+            "http": [
+                {
+                    "request": "GET /cassidoo/full/bGLyoar HTTP/1.1\r\nUser-Agent: Mozilla/5.0 (Windows NT 6.3; rv:36.0) Gecko/20100101 Firefox/36.0\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\r\nAccept-Language: en-US,en;q=0.5\r\nContent-Length: 0\r\n\r\n",
+                    "response": "HTTP/1.1 301 Moved Permanently\r\nDate: Sat, 21 Jan 2023 02:22:44 GMT\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nCache-Control: max-age=3600\r\nExpires: Sat, 21 Jan 2023 03:22:44 GMT\r\nLocation: https://codepen.io/cassidoo/full/bGLyoar\r\nSet-Cookie: __cf_bm=QhwGFgC_5pFaw76VAR.br2k2VuRThwrkhZ9JOyqQ8G8-1674267764-0-AVBVtwspq8ZG/Pi4mUlYBjDHHOjmYeIOEWMRbQjjstXa333N+wP/Nz6gU0iCfCVEuhoLFwagoB6VZiQk2b5EDzA=; path=/; expires=Sat, 21-Jan-23 02:52:44 GMT; domain=.codepen.io; HttpOnly; SameSite=None\r\nVary: Accept-Encoding\r\nServer: cloudflare\r\nCF-RAY: 78cc95786e799e08-EWR\r\nalt-svc: h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400\r\n\r\n"
+                }
+            ],
+            "id": 3695482345,
+            "impact": 3,
+            "name": "Cookie without Secure Flag",
+            "restriction": 0,
+            "url": "http://codepen.io/cassidoo/full/bGLyoar"
+        },
+        {
+            "customFields": {
+                "Cookie": [
+                    "item_viewed=true"
+                ]
+            },
+            "http": [
+                {
+                    "request": "GET /cassidoo/full/bGLyoar HTTP/1.1\r\nUser-Agent: Mozilla/5.0 (Windows NT 6.3; rv:36.0) Gecko/20100101 Firefox/36.0\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\r\nAccept-Language: en-US,en;q=0.5\r\nContent-Length: 0\r\nCookie: __cf_bm=NTcNNVEJKMIFDdW4_Nrfd1rJidYXngaxlqMUHiOAgg4-1674267765-0-AbjSjJsYSOn0DKrpsUGK2Jh0FnsGNtqQNasM50/LztGrc8wPb7S/u/4VYbDZkAUfkLDp/5PYxSCe+ipIHyZK2S0=; \r\n\r\n",
+                    "response": "HTTP/1.1 200 OK\r\nDate: Sat, 21 Jan 2023 02:22:46 GMT\r\nContent-Type: text/html; charset=utf-8\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nCF-Ray: 78cc95835f2a8c1e-EWR\r\nCache-Control: max-age=0, private, must-revalidate\r\nStrict-Transport-Security: max-age=31536000; includeSubDomains; preload\r\nCF-Cache-Status: DYNAMIC\r\ncf-apo-via: origin,host\r\ncontent-security-policy: default-src 'self'; base-uri 'self'; block-all-mixed-content; connect-src blob: *; font-src data: *; frame-src data: blob: *; img-src 'self' assets.codepen.io cpwebassets.codepen.io shots.codepen.io *.codepen-staging.com *.codepen.website *.codepen.io *.wp.com gravatar.com static.filestackapi.com *.buysellads.net *.doubleclick.net *.adsafeprotected.com *.unsplash.com data: blob:; form-action 'self'; media-src 'self' assets.codepen.io blog.codepen.io; object-src 'none'; script-src 'self' 'unsafe-eval' 'nonce-FEIr6qGGm44=' cpwebassets.codepen.io *.appcues.com *.buysellads.com *.carbonads.com *.carbonads.net *.filestackapi.com *.firebaseio.com *.paypal.com *.paypalobjects.com *.braintreegateway.com *.stripe.com *.wufoo.com wufoo.com www.google.com; style-src 'unsafe-inline' *; report-uri /cpe/csp\r\nreferrer-policy: strict-origin-when-cross-origin\r\nx-content-type-options: nosniff\r\nx-download-options: noopen\r\nx-permitted-cross-domain-policies: none\r\nx-request-id: c4983f81-bac6-4e95-aecb-c919a8ba2502\r\nx-runtime: 0.028327\r\nx-xss-protection: 1; mode=block\r\nVary: Accept-Encoding\r\nSet-Cookie: item_viewed=true; path=/cassidoo/full/bGLyoar; expires=Sat, 21 Jan 2023 06:22:46 GMT; HttpOnly; SameSite=Lax\r\nSet-Cookie: cp_session=%2BuyhXyoUQx2azd3%2B--zHX6aXcDcYQoXkBZLDnatILjlRtB78USiFf3HS9Pk%2FWVn5XrN3zoriGQqa%2BheNxc9UUQNLLHkwvKjy%2BWfn%2Bb1v8WwTTJ0%2B3siFP6SIoFQLf55MqgiS7gvLeFlhpG3hoa4I8SFpJNda0%2FCQmksj1qWWp2r8kMdTqzRMJa9jEJF9mdeSaB%2B0GzNSkb%2BsrcGhfLc8y7Xvp0JlGTvA%3D%3D--R%2BIdvsxj42xTGevjlyNgZQ%3D%3D; path=/; expires=Mon, 20 Feb 2023 02:22:46 GMT; secure; HttpOnly; SameSite=None\r\nSet-Cookie: __cfruid=6b9e0f2383120aa8a2ba177efc3a12f78221b35a-1674267766; path=/; domain=.codepen.io; HttpOnly; Secure; SameSite=None\r\nServer: cloudflare\r\nContent-Encoding: gzip\r\nalt-svc: h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400\r\n\r\n<!doctype html>\n<!--[if lte IE 9]>\n<html lang=\"en\" class=\"oldie\">\n<![endif]-->\n<!--[if gt IE 9]><!-->\n<html lang=\"en\">\n<!--<![endif]-->\n<head>\n<meta charset=\"ut\r\n...[truncated]..."
+                }
+            ],
+            "id": 1045703968,
+            "impact": 3,
+            "name": "Cookie without Secure Flag",
+            "restriction": 0,
+            "url": "https://codepen.io/cassidoo/full/bGLyoar"
+        },
+        {
+            "customFields": {
+                "Cookie": [
+                    "__cfruid=6b9e0f2383120aa8a2ba177efc3a12f78221b35a-1674267766"
+                ]
+            },
+            "details": "The `.codepen.io` domain was set for the cookie `__cfruid`. So the cookie is accessible to any subdomain.The current URL does not have the `www` subdomain and, it has the potential to have other subdomains.",
+            "http": [
+                {
+                    "request": "GET /cassidoo/full/bGLyoar HTTP/1.1\r\nUser-Agent: Mozilla/5.0 (Windows NT 6.3; rv:36.0) Gecko/20100101 Firefox/36.0\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\r\nAccept-Language: en-US,en;q=0.5\r\nContent-Length: 0\r\nCookie: __cf_bm=NTcNNVEJKMIFDdW4_Nrfd1rJidYXngaxlqMUHiOAgg4-1674267765-0-AbjSjJsYSOn0DKrpsUGK2Jh0FnsGNtqQNasM50/LztGrc8wPb7S/u/4VYbDZkAUfkLDp/5PYxSCe+ipIHyZK2S0=; \r\n\r\n",
+                    "response": "HTTP/1.1 200 OK\r\nDate: Sat, 21 Jan 2023 02:22:46 GMT\r\nContent-Type: text/html; charset=utf-8\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nCF-Ray: 78cc95835f2a8c1e-EWR\r\nCache-Control: max-age=0, private, must-revalidate\r\nStrict-Transport-Security: max-age=31536000; includeSubDomains; preload\r\nCF-Cache-Status: DYNAMIC\r\ncf-apo-via: origin,host\r\ncontent-security-policy: default-src 'self'; base-uri 'self'; block-all-mixed-content; connect-src blob: *; font-src data: *; frame-src data: blob: *; img-src 'self' assets.codepen.io cpwebassets.codepen.io shots.codepen.io *.codepen-staging.com *.codepen.website *.codepen.io *.wp.com gravatar.com static.filestackapi.com *.buysellads.net *.doubleclick.net *.adsafeprotected.com *.unsplash.com data: blob:; form-action 'self'; media-src 'self' assets.codepen.io blog.codepen.io; object-src 'none'; script-src 'self' 'unsafe-eval' 'nonce-FEIr6qGGm44=' cpwebassets.codepen.io *.appcues.com *.buysellads.com *.carbonads.com *.carbonads.net *.filestackapi.com *.firebaseio.com *.paypal.com *.paypalobjects.com *.braintreegateway.com *.stripe.com *.wufoo.com wufoo.com www.google.com; style-src 'unsafe-inline' *; report-uri /cpe/csp\r\nreferrer-policy: strict-origin-when-cross-origin\r\nx-content-type-options: nosniff\r\nx-download-options: noopen\r\nx-permitted-cross-domain-policies: none\r\nx-request-id: c4983f81-bac6-4e95-aecb-c919a8ba2502\r\nx-runtime: 0.028327\r\nx-xss-protection: 1; mode=block\r\nVary: Accept-Encoding\r\nSet-Cookie: item_viewed=true; path=/cassidoo/full/bGLyoar; expires=Sat, 21 Jan 2023 06:22:46 GMT; HttpOnly; SameSite=Lax\r\nSet-Cookie: cp_session=%2BuyhXyoUQx2azd3%2B--zHX6aXcDcYQoXkBZLDnatILjlRtB78USiFf3HS9Pk%2FWVn5XrN3zoriGQqa%2BheNxc9UUQNLLHkwvKjy%2BWfn%2Bb1v8WwTTJ0%2B3siFP6SIoFQLf55MqgiS7gvLeFlhpG3hoa4I8SFpJNda0%2FCQmksj1qWWp2r8kMdTqzRMJa9jEJF9mdeSaB%2B0GzNSkb%2BsrcGhfLc8y7Xvp0JlGTvA%3D%3D--R%2BIdvsxj42xTGevjlyNgZQ%3D%3D; path=/; expires=Mon, 20 Feb 2023 02:22:46 GMT; secure; HttpOnly; SameSite=None\r\nSet-Cookie: __cfruid=6b9e0f2383120aa8a2ba177efc3a12f78221b35a-1674267766; path=/; domain=.codepen.io; HttpOnly; Secure; SameSite=None\r\nServer: cloudflare\r\nContent-Encoding: gzip\r\nalt-svc: h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400\r\n\r\n<!doctype html>\n<!--[if lte IE 9]>\n<html lang=\"en\" class=\"oldie\">\n<![endif]-->\n<!--[if gt IE 9]><!-->\n<html lang=\"en\">\n<!--<![endif]-->\n<head>\n<meta charset=\"ut\r\n...[truncated]..."
+                }
+            ],
+            "id": 3229315037,
+            "impact": 3,
+            "name": "Cookie Accessible for Subdomains",
+            "restriction": 0,
+            "url": "https://codepen.io/cassidoo/full/bGLyoar"
+        },
+        {
+            "customFields": {
+                "PHP Version": [
+                    "37"
+                ]
+            },
+            "details": "PHP version is disclosed in the `body`.",
+            "http": [
+                {
+                    "request": "GET /cassidoo/full/bGLyoar HTTP/1.1\r\nUser-Agent: Mozilla/5.0 (Windows NT 6.3; rv:36.0) Gecko/20100101 Firefox/36.0\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\r\nAccept-Language: en-US,en;q=0.5\r\nContent-Length: 0\r\nReferer: ${135098-1}\r\nCookie: __cf_bm=nZ2X93B0S0THOr_48ianC2wJy58g5vuZ_Q9pa5n7cdQ-1674267764-0-ATD43QFtYXsVlRIDiDeDPL0FcFmcDxVS8hFPXCXyil2jXFvPk+w2vpMBiIxR34pPmbTYDkMPhq77OGn4LWP/Mcw=; \r\n\r\n",
+                    "response": "HTTP/1.1 403 Forbidden\r\nDate: Sat, 21 Jan 2023 02:22:44 GMT\r\nContent-Type: text/html; charset=UTF-8\r\nTransfer-Encoding: chunked\r\nConnection: close\r\nPermissions-Policy: accelerometer=(),autoplay=(),camera=(),clipboard-read=(),clipboard-write=(),fullscreen=(),geolocation=(),gyroscope=(),hid=(),interest-cohort=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=()\r\nReferrer-Policy: same-origin\r\nX-Frame-Options: SAMEORIGIN\r\nCache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0\r\nExpires: Thu, 01 Jan 1970 00:00:01 GMT\r\nVary: Accept-Encoding\r\nStrict-Transport-Security: max-age=31536000; includeSubDomains; preload\r\nServer: cloudflare\r\nCF-RAY: 78cc9577fdec8c2a-EWR\r\nContent-Encoding: gzip\r\nalt-svc: h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400\r\n\r\n<!DOCTYPE html>\n<html lang=\"en-US\">\n<head>\n    <title>Just a moment...</title>\n    <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">\n    <meta\r\n...[truncated]..."
+                }
+            ],
+            "id": 1314630633,
+            "impact": 4,
+            "name": "PHP Version Disclosure",
+            "restriction": 0,
+            "url": "https://codepen.io/cassidoo/full/bGLyoar"
+        }
+    ],
+    "requests": 142,
+    "risk": 2,
+    "status": "finished",
+    "target": "https://codepen.io/cassidoo/full/bGLyoar",
+    "version": "1.17.3"
+}

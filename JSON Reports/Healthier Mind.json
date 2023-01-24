@@ -1,0 +1,433 @@
+{
+    "date": "Fri Jan 20 2023",
+    "duration": "1′ 22″",
+    "issues": [
+        {
+            "customFields": {
+                "Cookies": [
+                    "connect.sid"
+                ],
+                "Forms With Password": [
+                    "https://meditracker.onrender.com/login",
+                    "https://meditracker.onrender.com/signup"
+                ],
+                "HTTPS": [
+                    "TLS 1.2"
+                ],
+                "Server Banner": [
+                    "cloudflare"
+                ],
+                "Services": [
+                    "HTTPS"
+                ],
+                "X-Powered-By": [
+                    "Express"
+                ]
+            },
+            "id": 407282451,
+            "impact": 4,
+            "name": "Target Information",
+            "restriction": 0,
+            "url": "https://meditracker.onrender.com"
+        },
+        {
+            "customFields": {
+                "Affected URLs": [
+                    "meditracker.onrender.com/login",
+                    "meditracker.onrender.com",
+                    "meditracker.onrender.com/profile",
+                    "meditracker.onrender.com/signup"
+                ],
+                "External Resources": [
+                    "https://code.jquery.com/jquery-2.1.3.min.js",
+                    "http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js",
+                    "https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css",
+                    "https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js",
+                    "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+                ]
+            },
+            "http": [
+                {
+                    "request": "GET / HTTP/1.1\r\nUser-Agent: Mozilla/5.0 (Windows NT 6.3; rv:36.0) Gecko/20100101 Firefox/36.0\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\r\nAccept-Language: en-US,en;q=0.5\r\nContent-Length: 0\r\n\r\n",
+                    "response": "HTTP/1.1 200 OK\r\nDate: Sat, 21 Jan 2023 01:45:44 GMT\r\nContent-Type: text/html; charset=utf-8\r\nConnection: keep-alive\r\nCF-Ray: 78cc5f46b9a219df-EWR\r\nContent-Encoding: gzip\r\nETag: W/\"19ec-GhIcbo8XtD66eV3NMl7mbT0rMCk\"\r\nSet-Cookie: connect.sid=s%3A9sNMuWyVtEOWgD6nuplBTXaiUBLDa8_D.HOGwB1agj6ikGDMJVebdD6AaVdAb%2B4p4FeMFRjmjACk; Path=/; HttpOnly\r\nVary: Accept-Encoding\r\nCF-Cache-Status: DYNAMIC\r\nx-powered-by: Express\r\nx-render-origin-server: Render\r\nServer: cloudflare\r\nalt-svc: h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400\r\n\r\n<!doctype html>\n<html lang=\"en\">\n    <head>\n        <!-- Required meta tags -->\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n        <title>MediTracker</title>\n        <link rel=\"icon\" href=\"/img/favicon.png\">\n        <!-- Bootstrap CSS -->\n        <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css\">\n        <link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css\">\n        <!-- <link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js\"> -->\n        <link rel=\"stylesheet\" href=\"/css/bootstrap.min.css\">\n        <!-- themify CSS -->\n        <link rel=\"stylesheet\" href=\"/css/themify-icons.css\">\n        <!-- flaticon CSS -->\n        <link rel=\"stylesheet\" href=\"/css/flaticon.css\">\n        <!-- style CSS -->\n        <link rel=\"stylesheet\" href=\"/css/style.css\">\n    </h\r\n...[truncated]..."
+                }
+            ],
+            "id": 84328621,
+            "impact": 3,
+            "name": "Subresource Integrity is Missing",
+            "restriction": 0,
+            "url": "https://meditracker.onrender.com"
+        },
+        {
+            "customFields": {
+                "Affected URLs": [
+                    "meditracker.onrender.com/login",
+                    "meditracker.onrender.com/post/createPost",
+                    "meditracker.onrender.com",
+                    "meditracker.onrender.com/profile",
+                    "meditracker.onrender.com/signup"
+                ]
+            },
+            "http": [
+                {
+                    "request": "GET / HTTP/1.1\r\nUser-Agent: Mozilla/5.0 (Windows NT 6.3; rv:36.0) Gecko/20100101 Firefox/36.0\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\r\nAccept-Language: en-US,en;q=0.5\r\nContent-Length: 0\r\n\r\n",
+                    "response": "HTTP/1.1 200 OK\r\nDate: Sat, 21 Jan 2023 01:45:44 GMT\r\nContent-Type: text/html; charset=utf-8\r\nConnection: keep-alive\r\nCF-Ray: 78cc5f46b9a219df-EWR\r\nContent-Encoding: gzip\r\nETag: W/\"19ec-GhIcbo8XtD66eV3NMl7mbT0rMCk\"\r\nSet-Cookie: connect.sid=s%3A9sNMuWyVtEOWgD6nuplBTXaiUBLDa8_D.HOGwB1agj6ikGDMJVebdD6AaVdAb%2B4p4FeMFRjmjACk; Path=/; HttpOnly\r\nVary: Accept-Encoding\r\nCF-Cache-Status: DYNAMIC\r\nx-powered-by: Express\r\nx-render-origin-server: Render\r\nServer: cloudflare\r\nalt-svc: h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400\r\n\r\n<!doctype html>\n<html lang=\"en\">\n    <head>\n        <!-- Required meta tags -->\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=devi\r\n...[truncated]..."
+                }
+            ],
+            "id": 3202318981,
+            "impact": 3,
+            "name": "X-Frame-Options Header is Missing",
+            "restriction": 0,
+            "url": "https://meditracker.onrender.com"
+        },
+        {
+            "customFields": {
+                "Affected URLs": [
+                    "meditracker.onrender.com/login",
+                    "meditracker.onrender.com/post/createPost",
+                    "meditracker.onrender.com",
+                    "meditracker.onrender.com/profile",
+                    "meditracker.onrender.com/signup"
+                ]
+            },
+            "http": [
+                {
+                    "request": "GET / HTTP/1.1\r\nUser-Agent: Mozilla/5.0 (Windows NT 6.3; rv:36.0) Gecko/20100101 Firefox/36.0\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\r\nAccept-Language: en-US,en;q=0.5\r\nContent-Length: 0\r\n\r\n",
+                    "response": "HTTP/1.1 200 OK\r\nDate: Sat, 21 Jan 2023 01:45:44 GMT\r\nContent-Type: text/html; charset=utf-8\r\nConnection: keep-alive\r\nCF-Ray: 78cc5f46b9a219df-EWR\r\nContent-Encoding: gzip\r\nETag: W/\"19ec-GhIcbo8XtD66eV3NMl7mbT0rMCk\"\r\nSet-Cookie: connect.sid=s%3A9sNMuWyVtEOWgD6nuplBTXaiUBLDa8_D.HOGwB1agj6ikGDMJVebdD6AaVdAb%2B4p4FeMFRjmjACk; Path=/; HttpOnly\r\nVary: Accept-Encoding\r\nCF-Cache-Status: DYNAMIC\r\nx-powered-by: Express\r\nx-render-origin-server: Render\r\nServer: cloudflare\r\nalt-svc: h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400\r\n\r\n<!doctype html>\n<html lang=\"en\">\n    <head>\n        <!-- Required meta tags -->\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=devi\r\n...[truncated]..."
+                }
+            ],
+            "id": 2733167910,
+            "impact": 3,
+            "name": "Strict-Transport-Security Header is Missing",
+            "restriction": 0,
+            "url": "https://meditracker.onrender.com"
+        },
+        {
+            "customFields": {
+                "Affected URLs": [
+                    "meditracker.onrender.com/login",
+                    "meditracker.onrender.com",
+                    "meditracker.onrender.com/profile",
+                    "meditracker.onrender.com/signup"
+                ]
+            },
+            "http": [
+                {
+                    "request": "GET / HTTP/1.1\r\nUser-Agent: Mozilla/5.0 (Windows NT 6.3; rv:36.0) Gecko/20100101 Firefox/36.0\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\r\nAccept-Language: en-US,en;q=0.5\r\nContent-Length: 0\r\n\r\n",
+                    "response": "HTTP/1.1 200 OK\r\nDate: Sat, 21 Jan 2023 01:45:44 GMT\r\nContent-Type: text/html; charset=utf-8\r\nConnection: keep-alive\r\nCF-Ray: 78cc5f46b9a219df-EWR\r\nContent-Encoding: gzip\r\nETag: W/\"19ec-GhIcbo8XtD66eV3NMl7mbT0rMCk\"\r\nSet-Cookie: connect.sid=s%3A9sNMuWyVtEOWgD6nuplBTXaiUBLDa8_D.HOGwB1agj6ikGDMJVebdD6AaVdAb%2B4p4FeMFRjmjACk; Path=/; HttpOnly\r\nVary: Accept-Encoding\r\nCF-Cache-Status: DYNAMIC\r\nx-powered-by: Express\r\nx-render-origin-server: Render\r\nServer: cloudflare\r\nalt-svc: h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400\r\n\r\n<!doctype html>\n<html lang=\"en\">\n    <head>\n        <!-- Required meta tags -->\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=devi\r\n...[truncated]..."
+                }
+            ],
+            "id": 3773217443,
+            "impact": 3,
+            "name": "Content-Security-Policy Header is Missing",
+            "restriction": 0,
+            "url": "https://meditracker.onrender.com"
+        },
+        {
+            "customFields": {
+                "Affected URLs": [
+                    "meditracker.onrender.com/login",
+                    "meditracker.onrender.com",
+                    "meditracker.onrender.com/profile",
+                    "meditracker.onrender.com/signup"
+                ]
+            },
+            "http": [
+                {
+                    "request": "GET / HTTP/1.1\r\nUser-Agent: Mozilla/5.0 (Windows NT 6.3; rv:36.0) Gecko/20100101 Firefox/36.0\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\r\nAccept-Language: en-US,en;q=0.5\r\nContent-Length: 0\r\n\r\n",
+                    "response": "HTTP/1.1 200 OK\r\nDate: Sat, 21 Jan 2023 01:45:44 GMT\r\nContent-Type: text/html; charset=utf-8\r\nConnection: keep-alive\r\nCF-Ray: 78cc5f46b9a219df-EWR\r\nContent-Encoding: gzip\r\nETag: W/\"19ec-GhIcbo8XtD66eV3NMl7mbT0rMCk\"\r\nSet-Cookie: connect.sid=s%3A9sNMuWyVtEOWgD6nuplBTXaiUBLDa8_D.HOGwB1agj6ikGDMJVebdD6AaVdAb%2B4p4FeMFRjmjACk; Path=/; HttpOnly\r\nVary: Accept-Encoding\r\nCF-Cache-Status: DYNAMIC\r\nx-powered-by: Express\r\nx-render-origin-server: Render\r\nServer: cloudflare\r\nalt-svc: h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400\r\n\r\n<!doctype html>\n<html lang=\"en\">\n    <head>\n        <!-- Required meta tags -->\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=devi\r\n...[truncated]..."
+                }
+            ],
+            "id": 373909488,
+            "impact": 4,
+            "name": "X-Content-Type-Options Header is Missing",
+            "restriction": 0,
+            "url": "https://meditracker.onrender.com"
+        },
+        {
+            "customFields": {
+                "Cookie": [
+                    "connect.sid=s%3A9sNMuWyVtEOWgD6nuplBTXaiUBLDa8_D.HOGwB1agj6ikGDMJVebdD6AaVdAb%2B4p4FeMFRjmjACk"
+                ]
+            },
+            "http": [
+                {
+                    "request": "GET / HTTP/1.1\r\nUser-Agent: Mozilla/5.0 (Windows NT 6.3; rv:36.0) Gecko/20100101 Firefox/36.0\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\r\nAccept-Language: en-US,en;q=0.5\r\nContent-Length: 0\r\n\r\n",
+                    "response": "HTTP/1.1 200 OK\r\nDate: Sat, 21 Jan 2023 01:45:44 GMT\r\nContent-Type: text/html; charset=utf-8\r\nConnection: keep-alive\r\nCF-Ray: 78cc5f46b9a219df-EWR\r\nContent-Encoding: gzip\r\nETag: W/\"19ec-GhIcbo8XtD66eV3NMl7mbT0rMCk\"\r\nSet-Cookie: connect.sid=s%3A9sNMuWyVtEOWgD6nuplBTXaiUBLDa8_D.HOGwB1agj6ikGDMJVebdD6AaVdAb%2B4p4FeMFRjmjACk; Path=/; HttpOnly\r\nVary: Accept-Encoding\r\nCF-Cache-Status: DYNAMIC\r\nx-powered-by: Express\r\nx-render-origin-server: Render\r\nServer: cloudflare\r\nalt-svc: h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400\r\n\r\n<!doctype html>\n<html lang=\"en\">\n    <head>\n        <!-- Required meta tags -->\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=devi\r\n...[truncated]..."
+                }
+            ],
+            "id": 906521235,
+            "impact": 3,
+            "name": "Cookie without Secure Flag",
+            "restriction": 0,
+            "url": "https://meditracker.onrender.com"
+        },
+        {
+            "customFields": {
+                "Cookie": [
+                    "connect.sid=s%3A9sNMuWyVtEOWgD6nuplBTXaiUBLDa8_D.HOGwB1agj6ikGDMJVebdD6AaVdAb%2B4p4FeMFRjmjACk"
+                ]
+            },
+            "http": [
+                {
+                    "request": "GET / HTTP/1.1\r\nUser-Agent: Mozilla/5.0 (Windows NT 6.3; rv:36.0) Gecko/20100101 Firefox/36.0\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\r\nAccept-Language: en-US,en;q=0.5\r\nContent-Length: 0\r\n\r\n",
+                    "response": "HTTP/1.1 200 OK\r\nDate: Sat, 21 Jan 2023 01:45:44 GMT\r\nContent-Type: text/html; charset=utf-8\r\nConnection: keep-alive\r\nCF-Ray: 78cc5f46b9a219df-EWR\r\nContent-Encoding: gzip\r\nETag: W/\"19ec-GhIcbo8XtD66eV3NMl7mbT0rMCk\"\r\nSet-Cookie: connect.sid=s%3A9sNMuWyVtEOWgD6nuplBTXaiUBLDa8_D.HOGwB1agj6ikGDMJVebdD6AaVdAb%2B4p4FeMFRjmjACk; Path=/; HttpOnly\r\nVary: Accept-Encoding\r\nCF-Cache-Status: DYNAMIC\r\nx-powered-by: Express\r\nx-render-origin-server: Render\r\nServer: cloudflare\r\nalt-svc: h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400\r\n\r\n<!doctype html>\n<html lang=\"en\">\n    <head>\n        <!-- Required meta tags -->\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=devi\r\n...[truncated]..."
+                }
+            ],
+            "id": 304097513,
+            "impact": 3,
+            "name": "Cookie without SameSite Flag",
+            "restriction": 0,
+            "url": "https://meditracker.onrender.com"
+        },
+        {
+            "customFields": {
+                "Affected URLs": [
+                    "meditracker.onrender.com/login",
+                    "meditracker.onrender.com/post/createPost",
+                    "meditracker.onrender.com",
+                    "meditracker.onrender.com/profile",
+                    "meditracker.onrender.com/signup"
+                ]
+            },
+            "http": [
+                {
+                    "request": "GET / HTTP/1.1\r\nUser-Agent: Mozilla/5.0 (Windows NT 6.3; rv:36.0) Gecko/20100101 Firefox/36.0\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\r\nAccept-Language: en-US,en;q=0.5\r\nContent-Length: 0\r\n\r\n",
+                    "response": "HTTP/1.1 200 OK\r\nDate: Sat, 21 Jan 2023 01:45:44 GMT\r\nContent-Type: text/html; charset=utf-8\r\nConnection: keep-alive\r\nCF-Ray: 78cc5f46b9a219df-EWR\r\nContent-Encoding: gzip\r\nETag: W/\"19ec-GhIcbo8XtD66eV3NMl7mbT0rMCk\"\r\nSet-Cookie: connect.sid=s%3A9sNMuWyVtEOWgD6nuplBTXaiUBLDa8_D.HOGwB1agj6ikGDMJVebdD6AaVdAb%2B4p4FeMFRjmjACk; Path=/; HttpOnly\r\nVary: Accept-Encoding\r\nCF-Cache-Status: DYNAMIC\r\nx-powered-by: Express\r\nx-render-origin-server: Render\r\nServer: cloudflare\r\nalt-svc: h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400\r\n\r\n<!doctype html>\n<html lang=\"en\">\n    <head>\n        <!-- Required meta tags -->\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=devi\r\n...[truncated]..."
+                }
+            ],
+            "id": 627100435,
+            "impact": 4,
+            "name": "Referrer-Policy Header is Missing",
+            "restriction": 0,
+            "url": "https://meditracker.onrender.com"
+        },
+        {
+            "customFields": {
+                "X-Powered-By": [
+                    "Express"
+                ]
+            },
+            "http": [
+                {
+                    "request": "GET / HTTP/1.1\r\nUser-Agent: Mozilla/5.0 (Windows NT 6.3; rv:36.0) Gecko/20100101 Firefox/36.0\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\r\nAccept-Language: en-US,en;q=0.5\r\nContent-Length: 0\r\n\r\n",
+                    "response": "HTTP/1.1 200 OK\r\nDate: Sat, 21 Jan 2023 01:45:44 GMT\r\nContent-Type: text/html; charset=utf-8\r\nConnection: keep-alive\r\nCF-Ray: 78cc5f46b9a219df-EWR\r\nContent-Encoding: gzip\r\nETag: W/\"19ec-GhIcbo8XtD66eV3NMl7mbT0rMCk\"\r\nSet-Cookie: connect.sid=s%3A9sNMuWyVtEOWgD6nuplBTXaiUBLDa8_D.HOGwB1agj6ikGDMJVebdD6AaVdAb%2B4p4FeMFRjmjACk; Path=/; HttpOnly\r\nVary: Accept-Encoding\r\nCF-Cache-Status: DYNAMIC\r\nx-powered-by: Express\r\nx-render-origin-server: Render\r\nServer: cloudflare\r\nalt-svc: h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400\r\n\r\n<!doctype html>\n<html lang=\"en\">\n    <head>\n        <!-- Required meta tags -->\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=devi\r\n...[truncated]..."
+                }
+            ],
+            "id": 3660974534,
+            "impact": 4,
+            "name": "X-Powered-By Header Found",
+            "restriction": 0,
+            "url": "https://meditracker.onrender.com"
+        },
+        {
+            "customFields": {
+                "Affected URLs": [
+                    "meditracker.onrender.com/login",
+                    "meditracker.onrender.com/post/createPost",
+                    "meditracker.onrender.com/profile",
+                    "meditracker.onrender.com/signup"
+                ]
+            },
+            "details": "The `Cache-Control` header is not set",
+            "http": [
+                {
+                    "request": "GET /login HTTP/1.1\r\nReferer: https://meditracker.onrender.com\r\nUser-Agent: Mozilla/5.0 (Windows NT 6.3; rv:36.0) Gecko/20100101 Firefox/36.0\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\r\nAccept-Language: en-US,en;q=0.5\r\nContent-Length: 0\r\nCookie: connect.sid=s%3A9sNMuWyVtEOWgD6nuplBTXaiUBLDa8_D.HOGwB1agj6ikGDMJVebdD6AaVdAb%2B4p4FeMFRjmjACk; \r\n\r\n",
+                    "response": "HTTP/1.1 200 OK\r\nDate: Sat, 21 Jan 2023 01:46:00 GMT\r\nContent-Type: text/html; charset=utf-8\r\nConnection: keep-alive\r\nCF-Ray: 78cc5faa7da71a44-EWR\r\nContent-Encoding: gzip\r\nETag: W/\"139f-T1HRvwphpe6AhOZ8IfRXCHWWj9M\"\r\nVary: Accept-Encoding\r\nCF-Cache-Status: DYNAMIC\r\nx-powered-by: Express\r\nx-render-origin-server: Render\r\nServer: cloudflare\r\nalt-svc: h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400\r\n\r\n<!doctype html>\n<html lang=\"en\">\n    <head>\n        <!-- Required meta tags -->\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=devi\r\n...[truncated]..."
+                }
+            ],
+            "id": 802971835,
+            "impact": 4,
+            "name": "Missing or Insecure Cache-Control Header",
+            "restriction": 0,
+            "url": "https://meditracker.onrender.com/login"
+        },
+        {
+            "customFields": {
+                "HTTP Error": [
+                    "500"
+                ]
+            },
+            "details": "When the parameter `password` was converted to array (`password[]`), the server replied with the `500` error code.",
+            "http": [
+                {
+                    "request": "POST /signup HTTP/1.1\r\nReferer: https://meditracker.onrender.com/signup\r\nContent-Type: application/x-www-form-urlencoded\r\nUser-Agent: Mozilla/5.0 (Windows NT 6.3; rv:36.0) Gecko/20100101 Firefox/36.0\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\r\nAccept-Language: en-US,en;q=0.5\r\nContent-Length: 100\r\nCookie: connect.sid=s%3ACx-mFM6itpLUhKBwRNJurnIU1pY8eWr8.cNHb%2FRBrVRBQoeb6eS6AKTmixzs18GGyp9f3RKX9sso; \r\nContent-Length: 100\r\n\r\nuserName=Test&email%5B%5D=test@none.nowhere.com&password=DJrLcmno321@!&confirmPassword=DJrLcmno321@!",
+                    "response": "HTTP/1.1 500 Internal Server Error\r\nDate: Sat, 21 Jan 2023 01:46:04 GMT\r\nContent-Type: text/html; charset=utf-8\r\nConnection: keep-alive\r\nCF-Ray: 78cc5fc3ec62c43e-EWR\r\nContent-Encoding: gzip\r\nVary: Accept-Encoding\r\nCF-Cache-Status: DYNAMIC\r\ncontent-security-policy: default-src 'none'\r\nx-content-type-options: nosniff\r\nx-powered-by: Express\r\nx-render-origin-server: Render\r\nServer: cloudflare\r\nalt-svc: h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400\r\n\r\n<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<title>Error</title>\n</head>\n<body>\n<pre>Internal Server Error</pre>\n</body>\n</html>\n"
+                }
+            ],
+            "id": 1672394605,
+            "impact": 2,
+            "name": "Internal Server Error",
+            "parameter": {
+                "name": "email",
+                "type": "Post",
+                "value": "test@none.nowhere.com"
+            },
+            "restriction": 0,
+            "url": "https://meditracker.onrender.com/signup"
+        },
+        {
+            "customFields": {
+                "HTTP Error": [
+                    "500"
+                ],
+                "Injection": [
+                    "{{886229-1}}"
+                ]
+            },
+            "details": "When the `{{886229-1}}` was set as the parameter `User-Agent` value, the server replied with the `500` error code.",
+            "http": [
+                {
+                    "request": "POST /post/createPost HTTP/1.1\r\nReferer: https://meditracker.onrender.com/profile\r\nContent-Type: multipart/form-data\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\r\nAccept-Language: en-US,en;q=0.5\r\nContent-Length: 5\r\nUser-Agent: {{886229-1}}\r\nCookie: connect.sid=s%3AZBS2FvPjzOiJ9nPssIGTFPrJSMnEf0jY.k%2FccZD1WXXl%2FF6Z9b4HMzg8zynFns8M3Qmoj3%2FNxO1I; \r\nContent-Length: 5\r\n\r\nfile=",
+                    "response": "HTTP/1.1 500 Internal Server Error\r\nDate: Sat, 21 Jan 2023 01:46:08 GMT\r\nContent-Type: text/html; charset=utf-8\r\nConnection: keep-alive\r\nCF-Ray: 78cc5fd95dbfc43e-EWR\r\nContent-Encoding: gzip\r\nVary: Accept-Encoding\r\nCF-Cache-Status: DYNAMIC\r\ncontent-security-policy: default-src 'none'\r\nx-content-type-options: nosniff\r\nx-powered-by: Express\r\nx-render-origin-server: Render\r\nServer: cloudflare\r\nalt-svc: h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400\r\n\r\n<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<title>Error</title>\n</head>\n<body>\n<pre>Internal Server Error</pre>\n</body>\n</html>\n"
+                }
+            ],
+            "id": 1712969347,
+            "impact": 2,
+            "name": "Internal Server Error",
+            "parameter": {
+                "name": "User-Agent",
+                "type": "Header",
+                "value": "Mozilla/5.0 (Windows NT 6.3; rv:36.0) Gecko/20100101 Firefox/36.0"
+            },
+            "referer": "https://meditracker.onrender.com/profile",
+            "restriction": 0,
+            "url": "https://meditracker.onrender.com/post/createPost"
+        },
+        {
+            "http": [
+                {
+                    "request": "GET /login HTTP/1.1\r\nReferer: https://meditracker.onrender.com\r\nUser-Agent: Mozilla/5.0 (Windows NT 6.3; rv:36.0) Gecko/20100101 Firefox/36.0\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\r\nAccept-Language: en-US,en;q=0.5\r\nContent-Length: 0\r\nCookie: connect.sid=s%3A9sNMuWyVtEOWgD6nuplBTXaiUBLDa8_D.HOGwB1agj6ikGDMJVebdD6AaVdAb%2B4p4FeMFRjmjACk; \r\n\r\n",
+                    "response": "HTTP/1.1 200 OK\r\nDate: Sat, 21 Jan 2023 01:46:00 GMT\r\nContent-Type: text/html; charset=utf-8\r\nConnection: keep-alive\r\nCF-Ray: 78cc5faa7da71a44-EWR\r\nContent-Encoding: gzip\r\nETag: W/\"139f-T1HRvwphpe6AhOZ8IfRXCHWWj9M\"\r\nVary: Accept-Encoding\r\nCF-Cache-Status: DYNAMIC\r\nx-powered-by: Express\r\nx-render-origin-server: Render\r\nServer: cloudflare\r\nalt-svc: h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400\r\n\r\n<!doctype html>\n<html lang=\"en\">\n    <head>\n        <!-- Required meta tags -->\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=devi\r\n...[truncated]..."
+                }
+            ],
+            "id": 134677281,
+            "impact": 3,
+            "name": "Auto Complete Enabled Password Input",
+            "restriction": 0,
+            "url": "https://meditracker.onrender.com/login"
+        },
+        {
+            "customFields": {
+                "HTTP Error": [
+                    "500"
+                ]
+            },
+            "details": "When the parameter `password` was converted to array (`password[]`), the server replied with the `500` error code.",
+            "http": [
+                {
+                    "request": "POST /login HTTP/1.1\r\nReferer: https://meditracker.onrender.com/login\r\nContent-Type: application/x-www-form-urlencoded\r\nUser-Agent: Mozilla/5.0 (Windows NT 6.3; rv:36.0) Gecko/20100101 Firefox/36.0\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\r\nAccept-Language: en-US,en;q=0.5\r\nContent-Length: 56\r\nCookie: connect.sid=s%3AAG5hbKitzJ7dsi7w9LlwQ09Ru-uVW1Z-.jDXFoN10h6FxagoO4uhJ7KnffCk7rJ5j2d5QGU9X764; \r\nContent-Length: 56\r\n\r\nemail%5B%5D=test@none.nowhere.com&password=DJrLcmno321@!",
+                    "response": "HTTP/1.1 500 Internal Server Error\r\nDate: Sat, 21 Jan 2023 01:46:17 GMT\r\nContent-Type: text/html; charset=utf-8\r\nConnection: keep-alive\r\nCF-Ray: 78cc601548ca236b-EWR\r\nContent-Encoding: gzip\r\nVary: Accept-Encoding\r\nCF-Cache-Status: DYNAMIC\r\ncontent-security-policy: default-src 'none'\r\nx-content-type-options: nosniff\r\nx-powered-by: Express\r\nx-render-origin-server: Render\r\nServer: cloudflare\r\nalt-svc: h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400\r\n\r\n<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<title>Error</title>\n</head>\n<body>\n<pre>Internal Server Error</pre>\n</body>\n</html>\n"
+                }
+            ],
+            "id": 901989784,
+            "impact": 2,
+            "name": "Internal Server Error",
+            "parameter": {
+                "name": "email",
+                "type": "Post",
+                "value": "test@none.nowhere.com"
+            },
+            "restriction": 0,
+            "url": "https://meditracker.onrender.com/login"
+        },
+        {
+            "http": [
+                {
+                    "request": "GET /profile HTTP/1.1\r\nReferer: https://meditracker.onrender.com/login\r\nUser-Agent: Mozilla/5.0 (Windows NT 6.3; rv:36.0) Gecko/20100101 Firefox/36.0\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\r\nAccept-Language: en-US,en;q=0.5\r\nContent-Length: 0\r\nCookie: connect.sid=s%3AMwE2L1a92iRC3GVaJe98v1PH1EBOBxv5.iXZIabpJpMj1e0m5N20BicJ5bgsuU1m9xQqL%2BhNkh5k; \r\n\r\n",
+                    "response": "HTTP/1.1 200 OK\r\nDate: Sat, 21 Jan 2023 01:46:02 GMT\r\nContent-Type: text/html; charset=utf-8\r\nConnection: keep-alive\r\nCF-Ray: 78cc5fb57b0d236b-EWR\r\nContent-Encoding: gzip\r\nETag: W/\"193f-qsKGQIEWqoSg6JKm4rVGX43hGEs\"\r\nVary: Accept-Encoding\r\nCF-Cache-Status: DYNAMIC\r\nx-powered-by: Express\r\nx-render-origin-server: Render\r\nServer: cloudflare\r\nalt-svc: h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400\r\n\r\n...[truncated]...\r\n\"\" class=\"form-label\">Driver's License</label>\n                      <input type=\"file\" class=\"form-control\" id=\"imageUpload\" name=\"file\">\r\n...[truncated]..."
+                }
+            ],
+            "id": 1094289304,
+            "impact": 4,
+            "name": "File Upload Functionality",
+            "restriction": 0,
+            "url": "https://meditracker.onrender.com/profile"
+        },
+        {
+            "customFields": {
+                "HTTP Error": [
+                    "500"
+                ]
+            },
+            "details": "When the parameter `password` was converted to array (`password[]`), the server replied with the `500` error code.",
+            "http": [
+                {
+                    "request": "POST /signup HTTP/1.1\r\nReferer: https://meditracker.onrender.com/signup\r\nContent-Type: application/x-www-form-urlencoded\r\nUser-Agent: Mozilla/5.0 (Windows NT 6.3; rv:36.0) Gecko/20100101 Firefox/36.0\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\r\nAccept-Language: en-US,en;q=0.5\r\nContent-Length: 100\r\nCookie: connect.sid=s%3ACx-mFM6itpLUhKBwRNJurnIU1pY8eWr8.cNHb%2FRBrVRBQoeb6eS6AKTmixzs18GGyp9f3RKX9sso; \r\nContent-Length: 100\r\n\r\nuserName=Test&email=test@none.nowhere.com&password%5B%5D=DJrLcmno321@!&confirmPassword=DJrLcmno321@!",
+                    "response": "HTTP/1.1 500 Internal Server Error\r\nDate: Sat, 21 Jan 2023 01:46:22 GMT\r\nContent-Type: text/html; charset=utf-8\r\nConnection: keep-alive\r\nCF-Ray: 78cc6031b9efc43e-EWR\r\nContent-Encoding: gzip\r\nVary: Accept-Encoding\r\nCF-Cache-Status: DYNAMIC\r\ncontent-security-policy: default-src 'none'\r\nx-content-type-options: nosniff\r\nx-powered-by: Express\r\nx-render-origin-server: Render\r\nServer: cloudflare\r\nalt-svc: h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400\r\n\r\n<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<title>Error</title>\n</head>\n<body>\n<pre>Internal Server Error</pre>\n</body>\n</html>\n"
+                }
+            ],
+            "id": 1419056266,
+            "impact": 2,
+            "name": "Internal Server Error",
+            "parameter": {
+                "name": "password",
+                "type": "Post",
+                "value": "DJrLcmno321@!"
+            },
+            "restriction": 0,
+            "url": "https://meditracker.onrender.com/signup"
+        },
+        {
+            "customFields": {
+                "HTTP Error": [
+                    "500"
+                ]
+            },
+            "http": [
+                {
+                    "request": "POST /post/createPost HTTP/1.1\r\nReferer: https://meditracker.onrender.com/profile\r\nContent-Type: multipart/form-data\r\nUser-Agent: Mozilla/5.0 (Windows NT 6.3; rv:36.0) Gecko/20100101 Firefox/36.0\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\r\nAccept-Language: en-US,en;q=0.5\r\nContent-Length: 5\r\nCookie: connect.sid=s%3AZBS2FvPjzOiJ9nPssIGTFPrJSMnEf0jY.k%2FccZD1WXXl%2FF6Z9b4HMzg8zynFns8M3Qmoj3%2FNxO1I; \r\nContent-Length: 5\r\n\r\nfile=",
+                    "response": "HTTP/1.1 500 Internal Server Error\r\nDate: Sat, 21 Jan 2023 01:46:04 GMT\r\nContent-Type: text/html; charset=utf-8\r\nConnection: keep-alive\r\nCF-Ray: 78cc5fc24925c43e-EWR\r\nContent-Encoding: gzip\r\nVary: Accept-Encoding\r\nCF-Cache-Status: DYNAMIC\r\ncontent-security-policy: default-src 'none'\r\nx-content-type-options: nosniff\r\nx-powered-by: Express\r\nx-render-origin-server: Render\r\nServer: cloudflare\r\nalt-svc: h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400\r\n\r\n<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<title>Error</title>\n</head>\n<body>\n<pre>Internal Server Error</pre>\n</body>\n</html>\n"
+                }
+            ],
+            "id": 1712969346,
+            "impact": 3,
+            "name": "Internal Server Error",
+            "referer": "https://meditracker.onrender.com/profile",
+            "restriction": 0,
+            "url": "https://meditracker.onrender.com/post/createPost"
+        },
+        {
+            "customFields": {
+                "HTTP Error": [
+                    "500"
+                ]
+            },
+            "details": "When the parameter `password` was converted to array (`password[]`), the server replied with the `500` error code.",
+            "http": [
+                {
+                    "request": "POST /login HTTP/1.1\r\nReferer: https://meditracker.onrender.com/login\r\nContent-Type: application/x-www-form-urlencoded\r\nUser-Agent: Mozilla/5.0 (Windows NT 6.3; rv:36.0) Gecko/20100101 Firefox/36.0\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\r\nAccept-Language: en-US,en;q=0.5\r\nContent-Length: 56\r\nCookie: connect.sid=s%3AAG5hbKitzJ7dsi7w9LlwQ09Ru-uVW1Z-.jDXFoN10h6FxagoO4uhJ7KnffCk7rJ5j2d5QGU9X764; \r\nContent-Length: 56\r\n\r\nemail=test@none.nowhere.com&password%5B%5D=DJrLcmno321@!",
+                    "response": "HTTP/1.1 500 Internal Server Error\r\nDate: Sat, 21 Jan 2023 01:46:40 GMT\r\nContent-Type: text/html; charset=utf-8\r\nConnection: keep-alive\r\nCF-Ray: 78cc60a3ac36c43e-EWR\r\nContent-Encoding: gzip\r\nVary: Accept-Encoding\r\nCF-Cache-Status: DYNAMIC\r\ncontent-security-policy: default-src 'none'\r\nx-content-type-options: nosniff\r\nx-powered-by: Express\r\nx-render-origin-server: Render\r\nServer: cloudflare\r\nalt-svc: h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400\r\n\r\n<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<title>Error</title>\n</head>\n<body>\n<pre>Internal Server Error</pre>\n</body>\n</html>\n"
+                }
+            ],
+            "id": 2594263679,
+            "impact": 2,
+            "name": "Internal Server Error",
+            "parameter": {
+                "name": "password",
+                "type": "Post",
+                "value": "DJrLcmno321@!"
+            },
+            "restriction": 0,
+            "url": "https://meditracker.onrender.com/login"
+        },
+        {
+            "http": [
+                {
+                    "request": "GET /signup HTTP/1.1\r\nReferer: https://meditracker.onrender.com/signup\r\nUser-Agent: Mozilla/5.0 (Windows NT 6.3; rv:36.0) Gecko/20100101 Firefox/36.0\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\r\nAccept-Language: en-US,en;q=0.5\r\nContent-Length: 0\r\nCookie: connect.sid=s%3Aejjez6jEjwTta3GS5czsSdS59M733F94.OCCIviobBlBnHB%2B8bwz8G9K5Xsba7lNXoJX9e8vHwBY; \r\n\r\n",
+                    "response": "HTTP/1.1 200 OK\r\nDate: Sat, 21 Jan 2023 01:46:02 GMT\r\nContent-Type: text/html; charset=utf-8\r\nConnection: keep-alive\r\nCF-Ray: 78cc5fb70dc8236b-EWR\r\nContent-Encoding: gzip\r\nETag: W/\"15cd-48gq6PRuwVP7qlPvhU/r3o3WWUs\"\r\nVary: Accept-Encoding\r\nCF-Cache-Status: DYNAMIC\r\nx-powered-by: Express\r\nx-render-origin-server: Render\r\nServer: cloudflare\r\nalt-svc: h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400\r\n\r\n<!doctype html>\n<html lang=\"en\">\n    <head>\n        <!-- Required meta tags -->\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=devi\r\n...[truncated]..."
+                }
+            ],
+            "id": 1625969694,
+            "impact": 3,
+            "name": "Auto Complete Enabled Password Input",
+            "restriction": 0,
+            "url": "https://meditracker.onrender.com/signup"
+        }
+    ],
+    "requests": 749,
+    "risk": 3.1,
+    "status": "finished",
+    "target": "https://meditracker.onrender.com",
+    "version": "1.17.3"
+}

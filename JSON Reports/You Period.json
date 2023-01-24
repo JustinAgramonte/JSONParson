@@ -1,0 +1,136 @@
+{
+    "date": "Fri Jan 20 2023",
+    "duration": "1′ 42″",
+    "issues": [
+        {
+            "customFields": {
+                "HTTPS": [
+                    "TLS 1.2"
+                ],
+                "Server Banner": [
+                    "youperiod"
+                ],
+                "Services": [
+                    "HTTPS"
+                ]
+            },
+            "id": 2834520859,
+            "impact": 4,
+            "name": "Target Information",
+            "restriction": 0,
+            "url": "https://youperiod.app"
+        },
+        {
+            "customFields": {
+                "Affected URLs": [
+                    "youperiod.app/sitemap.xml",
+                    "youperiod.app",
+                    "youperiod.app/index.asp"
+                ]
+            },
+            "http": [
+                {
+                    "request": "GET / HTTP/1.1\r\nUser-Agent: Mozilla/5.0 (Windows NT 6.3; rv:36.0) Gecko/20100101 Firefox/36.0\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\r\nAccept-Language: en-US,en;q=0.5\r\nContent-Length: 0\r\n\r\n",
+                    "response": "HTTP/1.1 200 OK\r\naccess-control-allow-origin: https://youperiod.app\r\nstrict-transport-security: max-age=1000000000\r\nserver: YouPeriod\r\ncache-control: max-age=10800\r\ncontent-security-policy: default-src 'self'; style-src 'self' 'unsafe-inline'; script-src 'self' 'sha256-CoCYJ/tTxH9vJyISOUlowiGKF8OokDL5QBuS3H8R1/g='; connect-src 'none';\r\netag: \"253621-5390-1657493240000\"\r\ndate: Sat, 21 Jan 2023 02:35:57 GMT\r\nlast-modified: Sun, 10 Jul 2022 22:47:20 GMT\r\ncontent-type: text/html; charset=utf-8\r\ncontent-length: 5390\r\nconnection: close\r\n\r\n<!DOCTYPE html>\n<html lang=\"en-US\">\n<head>\n<meta charset=\"utf-8\">\n<title>YOU .</title>\n\n<meta name=\"viewport\" content=\"width=device-width\">\n<meta name=”robots\r\n...[truncated]..."
+                }
+            ],
+            "id": 1044317325,
+            "impact": 3,
+            "name": "X-Frame-Options Header is Missing",
+            "restriction": 0,
+            "url": "https://youperiod.app/"
+        },
+        {
+            "customFields": {
+                "Affected URLs": [
+                    "youperiod.app/sitemap.xml",
+                    "youperiod.app",
+                    "youperiod.app/index.asp"
+                ]
+            },
+            "http": [
+                {
+                    "request": "GET / HTTP/1.1\r\nUser-Agent: Mozilla/5.0 (Windows NT 6.3; rv:36.0) Gecko/20100101 Firefox/36.0\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\r\nAccept-Language: en-US,en;q=0.5\r\nContent-Length: 0\r\n\r\n",
+                    "response": "HTTP/1.1 200 OK\r\naccess-control-allow-origin: https://youperiod.app\r\nstrict-transport-security: max-age=1000000000\r\nserver: YouPeriod\r\ncache-control: max-age=10800\r\ncontent-security-policy: default-src 'self'; style-src 'self' 'unsafe-inline'; script-src 'self' 'sha256-CoCYJ/tTxH9vJyISOUlowiGKF8OokDL5QBuS3H8R1/g='; connect-src 'none';\r\netag: \"253621-5390-1657493240000\"\r\ndate: Sat, 21 Jan 2023 02:35:57 GMT\r\nlast-modified: Sun, 10 Jul 2022 22:47:20 GMT\r\ncontent-type: text/html; charset=utf-8\r\ncontent-length: 5390\r\nconnection: close\r\n\r\n<!DOCTYPE html>\n<html lang=\"en-US\">\n<head>\n<meta charset=\"utf-8\">\n<title>YOU .</title>\n\n<meta name=\"viewport\" content=\"width=device-width\">\n<meta name=”robots\r\n...[truncated]..."
+                }
+            ],
+            "id": 4124904680,
+            "impact": 4,
+            "name": "X-Content-Type-Options Header is Missing",
+            "restriction": 0,
+            "url": "https://youperiod.app/"
+        },
+        {
+            "customFields": {
+                "Affected URLs": [
+                    "youperiod.app/sitemap.xml",
+                    "youperiod.app",
+                    "youperiod.app/index.asp"
+                ]
+            },
+            "http": [
+                {
+                    "request": "GET / HTTP/1.1\r\nUser-Agent: Mozilla/5.0 (Windows NT 6.3; rv:36.0) Gecko/20100101 Firefox/36.0\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\r\nAccept-Language: en-US,en;q=0.5\r\nContent-Length: 0\r\n\r\n",
+                    "response": "HTTP/1.1 200 OK\r\naccess-control-allow-origin: https://youperiod.app\r\nstrict-transport-security: max-age=1000000000\r\nserver: YouPeriod\r\ncache-control: max-age=10800\r\ncontent-security-policy: default-src 'self'; style-src 'self' 'unsafe-inline'; script-src 'self' 'sha256-CoCYJ/tTxH9vJyISOUlowiGKF8OokDL5QBuS3H8R1/g='; connect-src 'none';\r\netag: \"253621-5390-1657493240000\"\r\ndate: Sat, 21 Jan 2023 02:35:57 GMT\r\nlast-modified: Sun, 10 Jul 2022 22:47:20 GMT\r\ncontent-type: text/html; charset=utf-8\r\ncontent-length: 5390\r\nconnection: close\r\n\r\n<!DOCTYPE html>\n<html lang=\"en-US\">\n<head>\n<meta charset=\"utf-8\">\n<title>YOU .</title>\n\n<meta name=\"viewport\" content=\"width=device-width\">\n<meta name=”robots\r\n...[truncated]..."
+                }
+            ],
+            "id": 4249431835,
+            "impact": 4,
+            "name": "Referrer-Policy Header is Missing",
+            "restriction": 0,
+            "url": "https://youperiod.app/"
+        },
+        {
+            "http": [
+                {
+                    "request": "GET / HTTP/1.1\r\nReferer: https://youperiod.app/\r\nUser-Agent: Mozilla/5.0 (Windows NT 6.3; rv:36.0) Gecko/20100101 Firefox/36.0\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\r\nAccept-Language: en-US,en;q=0.5\r\nContent-Length: 0\r\n\r\n",
+                    "response": "HTTP/1.1 200 OK\r\naccess-control-allow-origin: https://youperiod.app\r\nstrict-transport-security: max-age=1000000000\r\nserver: YouPeriod\r\ncache-control: max-age=10800\r\ncontent-security-policy: default-src 'self'; style-src 'self' 'unsafe-inline'; script-src 'self' 'sha256-CoCYJ/tTxH9vJyISOUlowiGKF8OokDL5QBuS3H8R1/g='; connect-src 'none';\r\netag: \"253621-5390-1657493240000\"\r\ndate: Sat, 21 Jan 2023 02:36:14 GMT\r\nlast-modified: Sun, 10 Jul 2022 22:47:20 GMT\r\ncontent-type: text/html; charset=utf-8\r\ncontent-length: 5390\r\nconnection: close\r\n\r\n<!DOCTYPE html>\n<html lang=\"en-US\">\n<head>\n<meta charset=\"utf-8\">\n<title>YOU .</title>\n\n<meta name=\"viewport\" content=\"width=device-width\">\n<meta name=”robots\r\n...[truncated]..."
+                }
+            ],
+            "id": 1224260962,
+            "impact": 4,
+            "name": "Broken Link",
+            "referer": "https://youperiod.app/",
+            "restriction": 0,
+            "url": "https://youperiod.app/"
+        },
+        {
+            "http": [
+                {
+                    "request": "GET /robots.txt HTTP/1.1\r\nUser-Agent: Mozilla/5.0 (Windows NT 6.3; rv:36.0) Gecko/20100101 Firefox/36.0\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\r\nAccept-Language: en-US,en;q=0.5\r\nContent-Length: 0\r\n\r\n",
+                    "response": "HTTP/1.1 200 OK\r\naccess-control-allow-origin: https://youperiod.app\r\nstrict-transport-security: max-age=1000000000\r\nserver: YouPeriod\r\ncache-control: max-age=10800\r\netag: \"249512-24-1657323802000\"\r\ndate: Sat, 21 Jan 2023 02:36:15 GMT\r\nlast-modified: Fri, 08 Jul 2022 23:43:22 GMT\r\ncontent-type: text/plain\r\ncontent-length: 24\r\nconnection: close\r\n\r\nUser-Agent: *\nAllow: /\n\n"
+                }
+            ],
+            "id": 3190927420,
+            "impact": 4,
+            "name": "Robots.txt Found",
+            "restriction": 0,
+            "url": "https://youperiod.app/robots.txt"
+        },
+        {
+            "customFields": {
+                "Affected URLs": [
+                    "youperiod.app",
+                    "youperiod.app/index.asp"
+                ]
+            },
+            "details": "The `Cache-Control` header does not have any of (`no-store`,`no-cache`,`private`,`max-age=0, must-revalidate`) directives",
+            "http": [
+                {
+                    "request": "GET /index.php HTTP/1.1\r\nReferer: https://youperiod.app/index.php\r\nUser-Agent: Mozilla/5.0 (Windows NT 6.3; rv:36.0) Gecko/20100101 Firefox/36.0\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\r\nAccept-Language: en-US,en;q=0.5\r\nContent-Length: 0\r\n\r\n",
+                    "response": "HTTP/1.1 200 OK\r\naccess-control-allow-origin: https://youperiod.app\r\nstrict-transport-security: max-age=1000000000\r\nserver: YouPeriod\r\ncache-control: max-age=10800\r\ncontent-security-policy: default-src 'self'; style-src 'self' 'unsafe-inline'; script-src 'self' 'sha256-CoCYJ/tTxH9vJyISOUlowiGKF8OokDL5QBuS3H8R1/g='; connect-src 'none';\r\netag: \"253621-5390-1657493240000\"\r\ndate: Sat, 21 Jan 2023 02:37:03 GMT\r\nlast-modified: Sun, 10 Jul 2022 22:47:20 GMT\r\ncontent-type: text/html; charset=utf-8\r\ncontent-length: 5390\r\nconnection: close\r\n\r\n<!DOCTYPE html>\n<html lang=\"en-US\">\n<head>\n<meta charset=\"utf-8\">\n<title>YOU .</title>\n\n<meta name=\"viewport\" content=\"width=device-width\">\n<meta name=”robots\r\n...[truncated]..."
+                }
+            ],
+            "id": 1029556815,
+            "impact": 4,
+            "name": "Missing or Insecure Cache-Control Header",
+            "restriction": 0,
+            "url": "https://youperiod.app/index.php"
+        }
+    ],
+    "requests": 1083,
+    "risk": 2,
+    "status": "finished",
+    "target": "https://youperiod.app/",
+    "version": "1.17.3"
+}
